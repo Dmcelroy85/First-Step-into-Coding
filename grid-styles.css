@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+}   
+
+
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(150px, auto);
+    gap: 5px;
+    grid-template-areas: 
+        "header header"
+        "sidebar1 content1"
+        "sidebar2 content2"
+        "sidebar3 content3"
+} */
+
+/* .grid-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid-item-2 {
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+.grid-item-3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+} */
+
+/* .grid-item-1 {
+    grid-area: header;
+}
+.grid-item-2 {
+    grid-area: sidebar1;
+}
+.grid-item-3 {
+    grid-area: content1;
+}
+.grid-item-4 {
+    grid-area: sidebar2;
+}
+.grid-item-5 {
+    grid-area: content2;
+}
+.grid-item-6 {
+    grid-area: content3;
+}

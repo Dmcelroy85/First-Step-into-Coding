@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--light: #ddd;
+	--dark: #333;
+}
+.container {
+	background-color: #ffb;
+}
+.grid-item {
+	border-radius: 7px;
+	color: #eee;
+	font: 700 20px 'Open Sans';
+	padding: 11px;
+}
+.grid-item:nth-child(even) {
+	background-color: var(--dark);
+	color: var(--light);
+}
+.grid-item:nth-child(odd) {
+	background-color: var(--light);
+	color: var(--dark);
+}
+.flexbox-item {
+	border-radius: 7px;
+	color: #eee;
+	font: 700 20px 'Open Sans';
+	padding: 11px;
+}
+.flexbox-item:nth-child(even) {
+	background-color: var(--dark);
+	color: var(--light);
+}
+.flexbox-item:nth-child(odd) {
+	background-color: var(--light);
+	color: var(--dark);
+}
